@@ -9,7 +9,7 @@ with open("house_model.pkl", "rb") as f:
 
 @app.get("/")
 def home():
-    return {"message": "House Price Prediction API"}
+    return {"message": "CI/CD TEST SUCCESS"}
 
 @app.post("/predict")
 def predict(area: float, bedrooms: int, bathrooms: int):
